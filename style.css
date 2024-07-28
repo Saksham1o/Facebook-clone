@@ -1,0 +1,111 @@
+body {
+    background-color: #e9ebee;
+  }
+  textarea,
+  .form-control {
+    border: 0;
+    border-radius: 0;
+    resize: none;
+  }
+  .topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 6px 26px;
+    height: 42px;
+    background: #3b5e95;
+    border-bottom: 1px solid #294c7b;
+    overflow: hidden;
+  }
+  .topbar .right-group {
+    float: right;
+  }
+  .topbar .right-group .link-group {
+    position: relative;
+    top: -4px;
+    display: inline-block;
+    padding: 0;
+  }
+  .topbar .right-group .link-group a {
+    padding: 9px 8px;
+    color: #fff;
+    font-size: 12px;
+  }
+  .topbar .right-group .link-group a img {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 9px;
+  }
+  .topbar .right-group .link-group a:hover {
+    background: #355486;
+    text-decoration: none;
+  }
+  .topbar .right-group .link-group:nth-child(2) a {
+    margin-right: 16px;
+    border-left: 1px solid #355485;
+  }
+  .topbar .right-group .notification-group {
+    display: inline-block;
+    position: relative;
+    top: 3px;
+  }
+  .topbar .right-group .notification-group .link-group a {
+    margin: 0;
+    border: 0;
+  }
+  .topbar .right-group .notification-group a {
+    color: #17253c;
+    font-size: 21px;
+  }
+  .topbar .right-group .notification-group a:hover {
+    color: #111;
+    background: transparent;
+  }
+  .topbar .right-group .link-group:nth-child(4) a {
+    margin-left: 16px;
+    border-left: 1px solid #355485;
+  }
+
+  .topbar .search-box {
+    display: inline-block;
+    width: calc(100vw - 72%);
+  }
+  .topbar .search-box .input-group * {
+    font-size: 12px;
+    height: 25px;
+    border: 1px solid #fff;
+    background: #fff;
+    outline: 0;
+  }
+  .topbar .search-box .input-group button {
+    color: #7a7a7a;
+    transition: all ease 150ms;
+  }
+  .topbar .search-box .input-group button:hover {
+    color: #000;
+  }
+  .left-content {
+    left: 0;
+  }
+  .left-content {
+    position: fixed;
+    top: 42px;
+    bottom: 0;
+    width: 250px;
+    background: #e9ebee;
+    overflow: auto;
+  }
+  .left-content .global-links {
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .left-content .global-links a {
+    display: inline-block;
+    color: #000;
+    font-size: 12px;
+    width: 100%;
+    padding: 2px 8px;
+  }
