@@ -559,3 +559,120 @@ body {
 .right-content ul:nth-child(2) li span {
   color: #000;
 }
+.right-content ul:first-child li span {
+  color: #545454;
+}
+.right-content ul:first-child li a:hover {
+  text-decoration: none;
+}
+.right-content ul:first-child li:hover {
+  background: #ccc;
+}
+.right-content ul:nth-child(2) {
+  list-style: none;
+  padding: 0;
+  height: 50%;
+  overflow: auto;
+}
+.right-content ul:nth-child(2) h4 {
+  font-size: 12px;
+  margin-top: 15px;
+  color: #474747;
+  text-transform: uppercase;
+}
+.right-content ul:nth-child(2) li {
+  display: block;
+  padding: 5px 5px 15px 5px;
+  width: 100%;
+  border-bottom: 1px solid #a3a3a3;
+  cursor: pointer;
+}
+.right-content ul:nth-child(2) li a {
+  padding: 5px;
+  font-size: 12px;
+}
+.right-content ul:nth-child(2) li img {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+.right-content ul:nth-child(2) li b,
+.right-content ul:nth-child(2) li span {
+  color: #000;
+}
+.right-content ul:nth-child(2) li span {
+  display: block;
+  float: right;
+  position: relative;
+  top: 8px;
+  font-size: 9px;
+  padding: 1px 2px;
+  color: #545454;
+  background: #fff;
+  border: 1px solid #b8b8b8;
+}
+.right-content ul:nth-child(2) li .fa {
+  float: right;
+  position: relative;
+  top: 8px;
+  color: #1f0;
+}
+.right-content ul:nth-child(2) li a:hover {
+  text-decoration: none;
+}
+.right-content ul:nth-child(2) li:hover {
+  background: #ccc;
+}
+@media all and (max-width: 700px) {
+  .left-content {
+    display: none;
+  }
+  .feed-content {
+    left: 0;
+  }
+  .topbar .right-group > .link-group {
+    display: none;
+  }
+}
+@media all and (max-width: 1000px) {
+  .thirdcol-content {
+    display: none;
+  }
+  .feed-content {
+    right: 0;
+  }
+}
+@media all and (min-width: 1260px) {
+  .feed-content {
+    right: 250px;
+  }
+  .right-content {
+    right: 0;
+  }
+}
+@media all and (min-width: 1260px) {
+  .feed-content {
+    right: 575px;
+  }
+  .thirdcol-content {
+    right: 275px;
+  }
+  .right-content {
+    display: block;
+  }
+}
+.pointer {
+  cursor: pointer;
+}
+.ib {
+  display: inline-block;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.tc {
+  text-align: center;
+}
